@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none
+}
+/*/!*孔临顶部开始*!/*/
+/*.klbanner{*/
+    /*background: url(../images/banner.png) no-repeat 50% 0%;*/
+    /*height: 150px;*/
+    /*position:relative;*/
+/*}*/
+/*.klsubnav{*/
+    /*position:absolute;*/
+    /*right:62px;*/
+    /*top:25px;*/
+/*}*/
+/*.klsubnav a{*/
+    /*display: inline-block;*/
+    /*margin-right: 26px;*/
+    /*width: 57px;*/
+    /*height: 57px;*/
+
+/*}*/
+/*.klsubnav img{*/
+    /*display: none;*/
+/*}*/
+/*孔临顶部结束*/
+/*孔临F开始*/
+.klbox{
+    margin:0 auto;
+width:1180px;
+
+}
+.klbox .klhead {
+    width: 880px;
+    height: 118px;
+    margin: 0 auto;
+
+}
+.klbox .klmain {
+    /*margin-left: 70px;*/
+    margin-top:80px;
+
+
+}
+.klmain .klpic a{
+    margin-right: 65px;
+    display: inline-block;
+    width: 337px;
+    height: 337px;
+}
+.klmain .klpic .a1{
+    background: url(../images/kl0.jpg);
+
+}
+.klmain .klpic .a2{
+    background: url(../images/kl2.jpg);
+}
+.klmain .klpic .a3{
+    background: url(../images/kl4.jpg);
+    margin-right: 0; margin-right: 0;
+}
+.klmain .klpic .a4{
+    background: url(../images/kl7.jpg);
+
+}
+.klmain .klpic .a5{
+    background: url(../images/kl10.jpg);
+}
+.klmain .klpic .a6{
+    background: url(../images/kl12.jpg);
+    margin-right: 0;
+}
+.klmain .klpic .a7{
+    background: url(../images/kl14.jpg);
+
+}
+.klmain .klpic .a8{
+    background: url(../images/kl15.jpg);
+}
+.klmain .klpic .a9{
+    background: url(../images/kl18.jpg);
+    margin-right: 0;
+}
+.klmain .klpic img{
+    display:none;
+}
+/*孔临F结束*/
+/*孔临手风琴开始*/
+#klsfqbox {
+    width: 1100px;
+    height: 293px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+
+#klsfqbox li {
+    width: 290px;
+    height: 293px;
+    float: left;
+    background-repeat: no-repeat;
+    /*background-image: url(images/1.jpg);*/
+}
+
+#klsfqbox ul {
+    width: 1200px;
+}
+/*孔临手风琴结束*/

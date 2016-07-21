@@ -1,0 +1,44 @@
+
+/*cÇø¿ªÊ¼*/
+.c_exhibition{
+    width: 100%;
+    height: 960px;
+    background: #f5f5f5;
+}
+.c_exhibition .banner{
+    width: 100%;
+    height: 670px;
+    overflow: hidden;
+}
+
+.c_exhibition .banner li{
+    width: 100%;
+    height: 670px;
+    float: left;
+}
+.c_exhibition .banner li a{
+    width: 100%;
+    height:670px ;
+    display: block;
+}
+.c_exhibition .zi{
+    width: 483px;
+    /*text-align: center;*/
+    padding: 20px 0 8px 0; ;
+}
+.c_exhibition ol{
+    /*background: #009926;*/
+    overflow: hidden;
+}
+.c_exhibition ol li{
+    width: 259px;
+    height: 177px;
+    float: left;
+    margin-right: 41px;
+    border: 5px solid #f5f5f5;
+    cursor: pointer;
+    /*box-shadow:inset 5px 5px 5px #000;*/
+}
+.c_exhibition ol li.curr{
+    border: 5px solid #0eefe9;
+}

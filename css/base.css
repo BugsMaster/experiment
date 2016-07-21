@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{ margin:0; padding:0;}
+fieldset,img,textarea,button{ border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{ font-style:normal; font-weight:normal}
+ol,ul,li{ list-style:none}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal;}
+body{ color:#666; background:#fff; font:12px/22px "Microsoft YaHei",Verdana,Arial,sans-serif,"Times New Roman",宋体; text-align:left;}
+table{ border-collapse:collapse; border-spacing:0; font-size:inherit; font:100%;}
+ctoolion,th { text-align:left;}
+i{ font-style:normal;}
+a{ text-decoration:none; cursor:pointer; outline:none; color:#666;}
+a:hover{ color:#f60;}
+em{font-style:normal}
+.clear{ clear:both; font:0/0 Arial; height:0;}
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}
+
+.block{ display:block;}
+.hide{ display:none;}
+.hint{ float:left; width:100%; font:500 12px/24px 'Microsoft YaHei'; color:#999;}
+
+.noborder{ border:none !important;}
+
+
+.tl{ text-align:left !important;}
+.tc{ text-align:center !important;}
+.tr{ text-align:right !important;}
+
+.mt10{ margin-top: 10px;}
+.no_b{ border-bottom: none !important;}
+.no_mr{ margin-right: 0 !important;}
+
+
+/*icon*/
+.f-ico{ font-size:16px;}
+
+/*wrapper*/
+.wrapper { width:1200px; zoom:1; margin-left:auto; margin-right:auto;}
+
+/*public*/
+input.txt,textarea{ display:inline-block; height:20px; padding:4px; vertical-align:top; font:500 12px/20px Arial; color: #777; border:1px solid #ccc; outline:0 none;}
+input.txt:focus,textarea:focus{ color:#333; box-shadow:0 0 0 2px rgba(170, 170, 170, 0.15);}
+textarea{ height:60px;}
+select{ height:30px; padding:4px; color:#777; vertical-align:middle; border:1px solid #ccc; background-color:#fff;}
+select option{ display:block; height:20px; line-height:20px; padding:2px 4px;}
+

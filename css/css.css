@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*各浏览器显示不同，去掉蓝色边框*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol ,li {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+/*去掉行内替换元素空白缝隙*/
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*防止拖动 影响布局*/
+textarea {
+    resize: none;
+}
+
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*宋体 unicode */
+    color: #666;
+    background: #fff;
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1; /*IE/7/6*/
+
+}
+
+.E-box {
+    /*margin-left: 117px;*/
+    height: 1120px;
+   position: relative;
+   padding-left: 80px;
+
+}
+
+.E-box-da {
+    /*background-color: pink;*/
+    width: 1115px;
+    height: 716px;
+    position: absolute;
+    top: 254px;
+}
+/*上左*/
+.E-box-da-s-l {
+    float: left;
+    margin-left: 2px;
+    position: relative;
+}
+.E-box-da-s-l-l{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+
+/*上右*/
+.E-box-da-s-r {
+    height: 423px;
+    width: 789px;
+    overflow: hidden;
+    position: relative;
+}
+
+.E-box-da-s-r-r{
+    position: absolute;
+    top: -423px;
+    left: 0px;
+}
+
+/*下左*/
+.E-box-da-x-l{
+    width: 556px;
+    height: 293px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.E-box-da-x-l-l{
+    position: absolute;
+    top: 0;
+    left: -560px;
+}
+/*下右*/
+.E-box-da-x-r{
+    width: 559px;
+    height: 293px;
+    overflow: hidden;
+    position: relative;
+}
+.E-box-da-x-r-r{
+    position: absolute;
+    top: 293px;
+    left: 0px;
+}

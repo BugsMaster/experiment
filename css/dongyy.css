@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+/*各浏览器显示不同，去掉蓝色边框*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+/*去掉行内替换元素空白缝隙*/
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*防止拖动 影响布局*/
+textarea {
+    resize: none;
+}
+
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*宋体 unicode */
+    color: #666;
+    background: #fff;
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7A7C80;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.dy_top{
+    height: 170px;
+    background: url(../images/toubu.png) no-repeat;
+}
+.dy_content{
+    height: 600px;
+    /*background: url(../images/pic1.png) no-repeat;*/
+    position: relative;
+    overflow: hidden;
+
+}
+
+.dy_content .con_left{
+    position: absolute;
+    left:0;
+    top:300px;
+}
+.dy_content .con_right{
+    position: absolute;
+    right:0;
+    top:300px;
+}
+
+.dy_content ul{
+    width: 20000px;
+    position: absolute;
+}
+.dy_content ul li{
+    float: left;
+    /*width: 1920px;*/
+    /*height: 600px;*/
+}
+
+
+.dy_nav {
+    height: 55px;
+    border: 1px solid #7A7C80;
+    background-color: #26B7B4;
+}
+.dy_nav li{
+    float: left;
+    margin-right: 50px;
+}
+.dy_arr{
+    display: none;
+}
+/*.dy_content li{*/
+    /*float: left;*/
+/*}*/
+.dy_content {
+    height: 600px;
+    /*width: 1920px;*/
+}
+.dy_nav li a{
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+    height: 55px;
+    line-height: 55px;
+    width: 180px;
+    text-align: center;
+    margin-right: 10px;
+}
+.dy_nav li a:hover{
+    background-color: #FF7372;
+}
+.dy_nav .dy_cs1{
+    background-color: #FF7372;
+}
+.dy_bottom{
+    /*margin-top: 100px;*/
+    background-image: url("../images/tubiao.png");
+}
+.dy_bottom li {
+    float: left;
+}
+.dy_bottom img{
+  margin-left: 35px;
+}
+.dy_bottom p{
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-top: 45px;
+
+}
+.dy_bottom .dy_txt1{
+    color: #7A7C80;
+}
+.dy_bottom .dy_txt2{
+    color: #FF7372;
+}
+.current{
+   background-color: #FF7372;
+}
+.dy_bottom .dy_txt3{
+    color: #26B7B4;
+}
+.dy_bottom .dy_txt4{
+    color: #FFA64C;
+}

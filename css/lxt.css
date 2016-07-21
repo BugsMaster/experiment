@@ -1,0 +1,98 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei", "Î¢ÈíÑÅºÚ", SimSun, "ËÎÌå", sans-serif;color: #666;}
+ol,ul{list-style:none}
+a{text-decoration:none}
+fieldset,img{border:0;vertical-align:top;}
+a,input,button,select,textarea{outline:none;}
+a,button{cursor:pointer;}
+.clearfix:after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.car_banner {
+    margin: 0 auto;
+}
+
+.arrow_down {
+    width: 195px;
+    height: 150px;
+    background-image: url("../images/lxt_arr_down.png");
+    margin: 0 auto;
+
+}
+
+#order_display{
+    height: 500px;
+    width: 1280px;
+    position: relative;
+    left: 0px;
+    margin: 0 auto;
+}
+#order_display ul li{
+    position: absolute;
+    top:0;
+}
+.arrow_lxt{
+
+    position: absolute;
+    top:50%;
+}
+#arrow_left_lxt{
+
+    width: 62px;
+    height: 82px;
+    /*background-color: pink;*/
+    background: url(../images/lxt_arrow_left.png) no-repeat;
+
+    position: absolute;
+    left: 0px;
+    top:50%;
+    z-index: 99;
+
+}
+#arrow_right_lxt{
+
+    width: 62px;
+    height: 82px;
+    /*background-color: pink;*/
+
+    position: absolute;
+    left: 1200px;
+    top:50%;
+    background: url(../images/lxt_arrow_right.png) no-repeat;
+    z-index: 99;
+}
+.poem{
+    width: 470px;
+    height: 530px;
+    background-image: url(../images/lxt_poem.png);
+    /*margin-left: 400px;*/
+    position: relative;
+
+}
+#circle_inner{
+    height: 512px;
+    width: 512px;
+    background-image: url("../images/lxt_circle02.png");
+    position: absolute;
+    top: 0px;
+    left: -10px;
+
+}
+#circle_outer{
+    height: 512px;
+    width: 512px;
+    background-image: url("../images/lxt_circle01.png");
+    position: absolute;
+    top: 0px;
+    left: -10px;
+}
+
+

@@ -1,0 +1,344 @@
+@charset"utf-8";
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    font-family:Helvetica, arial, '微软雅黑', sans-serif;
+}
+img {
+    border:none;
+    font-size:0;
+    display:block;
+}
+.clear {
+    clear:both;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+a {
+    text-decoration:none;
+    color:black;
+}
+li {
+    list-style:none;
+}
+.container {
+    width:96%;
+    margin:0 auto;
+    position:relative;
+    padding:0;
+}
+#bg {
+    width:100%;
+    height:auto;
+    background:url('../images/03.jpg');
+    background-size:cover;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:0;
+    overflow:hidden;
+}
+.bg {
+    width:100%;
+    height:auto;
+    position:absolute;
+}
+#bg_01 {
+    background:url('../images/02.jpg');
+    background-size:cover;
+}
+#bg_02 {
+    background:url('../images/03.jpg');
+    background-size:cover;
+}
+#bg_03 {
+    background:url('../images/03.jpg');
+    background-size:cover;
+}
+#header {
+    /*background-color:#f9f9f9;*/
+    height:108px;
+    border-bottom:#c9c9c9 2px solid;
+    position:relative;
+    z-index:10;
+    background:url('../images/nav_bg.png');
+    background-repeat:repeat;
+}
+#header_logo {
+    width:156px;
+    height:65px;
+    position:absolute;
+    top:24px;
+    left:80px;
+    background-image:url('../images/logo.png');
+}
+#header_nav {
+    position:absolute;
+    top:40px;
+    width:100%;
+}
+#header_menu_list {
+    width:auto;
+    height:68px;
+    margin-left:208px;
+    margin-bottom:0;
+}
+.header_menu_list {
+    width:12%;
+    height:68px;
+    float:left;
+    line-height:68px;
+    text-align:center;
+    font-size:18px;
+    color:#8e8e8e;
+    position:relative;
+}
+.header_menu_list_checked {
+    border-bottom:#009cad 2px solid;
+}
+.header_menu_list a {
+    height:68px;
+    width:100%;
+    color:#fff;
+    display:inline-block;
+    text-decoration:none;
+    transition:font-size 0.2s, color 0.5s;
+}
+.header_menu_list_checked a {
+    font-size:18px;
+    /*color:#0099cc;*/
+}
+.header_menu_list span {
+    height:22px;
+    width:2px;
+    background-color:#ececec;
+    position:absolute;
+    left:0;
+    top:23px;
+}
+.header_menu_list a:hover {
+    font-size:18px;
+    color:#0099cc;
+}
+#header_search {
+    width:208px;
+    height:32px;
+    position:absolute;
+    top:62px;
+    right:10px;
+    background-color:#edeeef;
+}
+#header_menu_details {
+    /*overflow:hidden;*/
+    display:none;
+    position:absolute;
+    background-color:rgba(0,0,0,0.2);
+    width:100%;
+    height:170px;
+
+}
+.header_search_text {
+    width:165px;
+    height:30px;
+    font-family:'微软雅黑';
+    font-size:14px;
+    font-weight: bold;
+    color:#8e8e8e;
+    background-color:transparent;
+    border:none;
+    outline-style:none;
+    line-height:30px;
+    text-indent:5px;
+    float:left;
+}
+.header_search_subm {
+    width:32px;
+    height:32px;
+    float:right;
+    background-color:#7bd2db;
+    background-image: url('../images/zoomIn.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    border:none;
+    outline-style:none;
+    
+}
+.header_detail_container {
+    width:1000px;
+    height:170px;
+    position:absolute;
+    background-color: rgba(0,0,0,.2);
+    top:0;
+    left:0;
+}
+#header_menu_details_box {
+    width:1000px;
+    height:170px;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+#header_menu_details_mask {
+    width:6000px;
+    height:170px;
+    position:absolute;
+}
+.header_detail_box {
+    float:left;
+}
+.header_detail_box {
+    width:200px;
+    height:170px;
+}
+.header_detail_img {
+    width:180px;
+    height:85px;
+    background:url('../images/nav_yang.jpg');
+    background-size:cover;
+    margin:25px 0 10px 10px;
+}
+.header_detail_title img {
+    display:inline-block;
+    margin-right:8px;
+}
+.header_detail_title {
+    text-align:center;
+}
+
+
+
+.zfbg{
+  padding-top: 500px;
+
+}
+
+/*固定导航部分*/
+.klbanner{
+    margin-top: 600px;
+    background: url(../images/banner.png) no-repeat 50% 0%;
+    height: 150px;
+    position:relative;
+    display: block;
+
+}
+.klsubnav{
+    position:absolute;
+    right:62px;
+    top:25px;
+
+}
+.klsubnav a{
+    display: inline-block;
+    margin-right: 26px;
+    width: 57px;
+    height: 57px;
+
+}
+.klsubnav img{
+    display: none;
+}
+
+
+/* rightNav */
+.rightNav {
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:100;
+    width:140px;
+    cursor:pointer;
+    margin:150px 0 0 0;
+}
+
+.rightNav a {
+    display:block;
+    position:relative;
+    height:45px;
+    line-height:45px;
+    margin-bottom:2px;
+    background:#26B7B4;
+    padding-right:10px;
+    width:130px;
+    overflow:hidden;
+    cursor:pointer;
+    right:-95px;
+    font-size: 25px;
+}
+.rightNav a:hover {
+    text-decoration:none;
+    color:#1974A1;
+}
+.rightNav a:hover em {
+    background:#00b700
+
+}
+.rightNav a em {
+    display:block;
+    float:left;
+    width:40px;
+    background:#1974A1;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    margin-right:10px;
+    font-style:normal;
+    border-radius: 60px;
+}
+/**/
+@font-face {font-family: 'iconfont';
+    src: url('../font/iconfont.eot'); /* IE9*/
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.left_box_img {
+    position: fixed;
+    bottom: 5%;
+    right: 5px;
+    z-index: 50
+}
+.left_box_img em{
+  font-size: 35px;
+    background-color: #464646;
+    padding: 5px 2px;
+    border-radius: 10px 10px 0 0;
+
+ }
+.left_box_img em:hover{
+    color: #0099cc;
+    padding: 10px 2px;
+    border-radius: 20px  20px 0 0;
+}
+
+.left_box_top{
+   position: fixed;
+    top: 12%;  right: 15px;
+    z-index: 100;
+  
+}
+#left_nav_btn,#left_navn{
+    font-size:40px;
+    color: #009cad;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 8px 8px;
+    border-radius: 50px;
+
+}
+
+#left_navn{
+    display: none;
+}
+
